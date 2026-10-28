@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Design Skills — 设计助手工具箱</title>
+  <desc id="desc">Figma component layouts and frontend design guidance, together in one toolbox. Workflow illustration.</desc>
+  <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#c5cec6"/></pattern></defs>
+  <rect width="1200" height="380" rx="20" fill="#f4f2eb"/>
+  <rect x="700" width="500" height="380" fill="url(#dots)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <rect x="48" y="40" width="188" height="26" rx="13" fill="#dce4d5"/>
+    <text x="64" y="58" font-size="11" font-weight="700" letter-spacing="1.6" fill="#38503a">THE DESIGN TOOLBOX</text>
+    <text x="45" y="160" font-size="78" font-weight="750" letter-spacing="-3" fill="#203025">Design Skills</text>
+    <text x="48" y="209" font-size="21" fill="#65715f">From structured layouts to thoughtful interfaces.</text>
+    <path d="M48 258H628" stroke="#cdd2c5"/>
+    <text x="48" y="298" font-size="12" font-weight="600" letter-spacing="2" fill="#53674f">FIGMA DSL</text>
+    <text x="201" y="299" font-size="18" fill="#8d9b86">+</text>
+    <text x="236" y="298" font-size="12" font-weight="600" letter-spacing="2" fill="#53674f">FRONTEND DESIGN</text>
+    <rect x="762" y="43" width="360" height="218" rx="13" fill="#fffef9" stroke="#cbd3c5"/>
+    <rect x="784" y="67" width="120" height="10" rx="3" fill="#516e50"/>
+    <rect x="784" y="98" width="91" height="26" rx="4" fill="#ebeee5"/>
+    <rect x="888" y="98" width="91" height="26" rx="4" fill="#ebeee5"/>
+    <rect x="992" y="98" width="108" height="26" rx="4" fill="#516e50"/>
+    <rect x="784" y="145" width="316" height="90" rx="4" fill="#f9faf5" stroke="#e1e5da"/>
+    <path d="M784 175H1100M784 205H1100M889 145V235M995 145V235" stroke="#e1e5da"/>
+    <rect x="705" y="232" width="319" height="104" rx="12" fill="#203025"/>
+    <text x="726" y="258" font-size="10" font-weight="600" letter-spacing="2" fill="#b9d49e">INTENT → IMPLEMENTATION</text>
+    <text x="726" y="298" font-family="ui-monospace, SFMono-Regular, monospace" font-size="24" fill="#ecf0e4">&lt;Design /&gt;</text>
+    <text x="1100" y="337" font-size="10" letter-spacing="1" fill="#7d8b73">01 + 02</text>
+  </g>
+</svg>

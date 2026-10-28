@@ -1,0 +1,13 @@
+{
+  "schema": "figma-dsl",
+  "version": "1.0",
+  "page": {
+    "name": "DSL 基础导入验证",
+    "width": 1208,
+    "padding": 24,
+    "gap": 24,
+    "cornerRadius": 16,
+    "fontFamily": "Inter"
+  },
+  "sections": []
+}

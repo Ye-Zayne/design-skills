@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端设计"
+  short_description: "Design and build distinctive frontend interfaces"
+  default_prompt: "Use $frontend-design to design and implement a polished frontend interface that fits the current project and its constraints."

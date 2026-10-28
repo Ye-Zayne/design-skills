@@ -1,0 +1,153 @@
+{
+  "schema": "figma-dsl",
+  "version": "1.0",
+
+  "page": {
+    "name": "页面名称",
+    "width": 1208,
+    "padding": 24,
+    "gap": 24,
+    "cornerRadius": 16,
+    "fontFamily": "PingFang SC"
+  },
+
+  "sections": [
+
+    {
+      "type": "PageTitle",
+      "componentId": "67:17401",
+      "texts": {
+        "title": "页面标题"
+      }
+    },
+
+    {
+      "type": "FilterBar",
+      "fields": [
+        {
+          "componentId": "12:1870",
+          "type": "input",
+          "label": "筛选名称",
+          "placeholder": "请输入"
+        },
+        {
+          "componentId": "12:1869",
+          "type": "select",
+          "label": "筛选名称",
+          "placeholder": "请选择"
+        },
+        {
+          "componentId": "12:1868",
+          "type": "dateRange",
+          "label": "筛选名称"
+        },
+        {
+          "componentId": "173:11230",
+          "type": "placeHolder"
+        }
+      ],
+      "actions": {
+        "componentId": "18:2112"
+      }
+    },
+
+    {
+      "type": "TableSection",
+      "title": "表格标题",
+      "counter": "（共 999 条）",
+      "componentIds": {
+        "SectionTitle": "67:17402",
+        "SelectionCounter": "68:3989",
+        "TableHeaderRow": "194:1500",
+        "TableDataRow": "197:3652",
+        "Pagination": "17:2181"
+      },
+      "toolbar": {
+        "left": [
+          {
+            "type": "SelectionCounter"
+          },
+          {
+            "componentId": "8:1635",
+            "variant": "secondary",
+            "text": "批量操作"
+          }
+        ],
+        "right": [
+          {
+            "componentId": "8:1635",
+            "variant": "secondary",
+            "text": "导出"
+          },
+          {
+            "componentId": "8:1639",
+            "variant": "primary",
+            "text": "新增"
+          }
+        ]
+      },
+      "columns": [
+        { "title": "列标题", "type": "text" },
+        { "title": "列标题", "type": "number" },
+        { "title": "操作",   "type": "action", "actions": ["查看", "编辑", "删除"] }
+      ],
+      "rows": [
+        ["数据1", "数据2", ""],
+        ["数据1", "数据2", ""]
+      ]
+    }
+
+  ],
+
+  "$defs": {
+
+    "fieldTypes": {
+      "description": "Field 变体与 componentId 对应关系",
+      "input":       "12:1870",
+      "select":      "12:1869",
+      "dateRange":   "12:1868",
+      "placeHolder": "173:11230"
+    },
+
+    "buttonVariants": {
+      "description": "Button 变体与 componentId 对应关系",
+      "primary":   "8:1639",
+      "secondary": "8:1635",
+      "text":      "8:1637"
+    },
+
+    "tableHeaderRowVariants": {
+      "description": "TableHeaderRow 按列数选择变体（不含多选列）",
+      "4": "197:3599",
+      "5": "197:3583",
+      "6": "194:1500",
+      "7": "197:3613",
+      "8": "197:3631"
+    },
+
+    "tableDataRowVariants": {
+      "description": "TableDataRow 按列数选择变体（不含多选列）",
+      "4": "197:4205",
+      "5": "197:4184",
+      "6": "197:3652",
+      "7": "197:3917",
+      "8": "122:7317"
+    },
+
+    "columnTypeRules": {
+      "description": "列数 = columns 数组长度（不含 action 列不另计，action 列也算在内）。支持 4～8 列。",
+      "actionColumnWidth": 200,
+      "textColumnWidth": 160,
+      "numberColumnWidth": 120
+    },
+
+    "filterBarLayout": {
+      "description": "FilterBar 每行放 3 个 Field，末行第 3 列固定放 FilterActions。占位规则：N%3===0 → [placeHolder, placeHolder, actions]；N%3===1 → [field, placeHolder, actions]；N%3===2 → [field, field, actions]",
+      "fieldsPerRow": 3,
+      "fieldHeight": 32,
+      "rowGap": 16,
+      "fieldGap": 16
+    }
+
+  }
+}

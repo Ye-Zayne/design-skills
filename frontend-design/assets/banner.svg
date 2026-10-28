@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Frontend Design Skill</title>
+  <desc id="desc">An editorial illustration of design direction, typography, color, layout and working interfaces.</desc>
+  <rect width="1200" height="360" rx="20" fill="#17201b"/>
+  <path d="M840 0V360M48 80H1152M48 310H1152" stroke="#3a493d"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="48" y="52" fill="#caed92" font-size="12" font-weight="650" letter-spacing="3">FRONTEND DESIGN SKILL</text>
+    <text x="48" y="161" fill="#f5f2e9" font-size="64" font-weight="750" letter-spacing="-2">Design with intent.</text>
+    <text x="48" y="235" fill="#caed92" font-size="64" font-weight="750" letter-spacing="-2">Build with detail.</text>
+    <text x="48" y="282" fill="#b4c1b4" font-size="16">Clear direction. Distinctive interfaces. Working code.</text>
+    <text x="48" y="337" fill="#8fa18e" font-size="11" letter-spacing="2.2">TYPOGRAPHY / COLOR / COMPOSITION / MOTION</text>
+    <text x="881" y="53" fill="#8fa18e" font-size="12" letter-spacing="2">A REUSABLE WORKFLOW</text>
+    <text x="879" y="190" fill="#f5f2e9" font-family="Georgia, serif" font-size="108" letter-spacing="-7">Aa</text>
+    <circle cx="1099" cy="160" r="33" fill="#caed92"/>
+    <rect x="884" y="227" width="72" height="44" rx="4" fill="#e9e5d9"/>
+    <rect x="968" y="227" width="72" height="44" rx="4" fill="#82977d"/>
+    <rect x="1052" y="227" width="72" height="44" rx="4" fill="#caed92"/>
+    <text x="883" y="337" fill="#8fa18e" font-size="11" letter-spacing="2">PROMPT → DESIGN → CODE</text>
+  </g>
+</svg>

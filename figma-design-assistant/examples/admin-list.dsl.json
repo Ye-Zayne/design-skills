@@ -1,0 +1,58 @@
+{
+  "schema": "figma-dsl",
+  "version": "1.0",
+  "page": {
+    "name": "订单管理",
+    "width": 1208,
+    "padding": 24,
+    "gap": 24,
+    "cornerRadius": 16,
+    "fontFamily": "PingFang SC"
+  },
+  "sections": [
+    {
+      "type": "PageTitle",
+      "componentId": "67:17401",
+      "texts": { "title": "订单管理" }
+    },
+    {
+      "type": "FilterBar",
+      "placeholderComponentId": "173:11230",
+      "fields": [
+        { "componentId": "12:1870", "type": "input", "label": "订单编号", "placeholder": "请输入订单编号" },
+        { "componentId": "12:1869", "type": "select", "label": "订单状态", "placeholder": "请选择订单状态" },
+        { "componentId": "12:1868", "type": "dateRange", "label": "创建时间" }
+      ],
+      "actions": { "componentId": "18:2112" }
+    },
+    {
+      "type": "TableSection",
+      "title": "订单列表",
+      "counter": "（共 2 条）",
+      "componentIds": {
+        "SectionTitle": "67:17402",
+        "SelectionCounter": "68:3989",
+        "TableHeaderRow": "197:3599",
+        "TableDataRow": "197:4205",
+        "Pagination": "17:2181"
+      },
+      "toolbar": {
+        "left": [{ "type": "SelectionCounter" }],
+        "right": [
+          { "componentId": "8:1635", "text": "导出" },
+          { "componentId": "8:1639", "text": "新增订单" }
+        ]
+      },
+      "columns": [
+        { "title": "订单编号", "type": "text" },
+        { "title": "订单状态", "type": "text" },
+        { "title": "待处理数量", "type": "number" },
+        { "title": "操作", "type": "action", "actions": ["查看", "编辑", "删除"] }
+      ],
+      "rows": [
+        ["ORD-20261028-001", "已完成", 0, null],
+        ["ORD-20261028-002", "待处理", 3, null]
+      ]
+    }
+  ]
+}
